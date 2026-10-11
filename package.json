@@ -1,0 +1,43 @@
+{
+  "name": "shoulder-watch",
+  "version": "0.1.0",
+  "description": "Shoulder Watch: stalled-vehicle detection on Atlanta GDOT cameras with iMessage alerts (Hacklanta 26)",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "worker": "tsx worker/index.ts",
+    "worker:replay": "tsx worker/index.ts --replay",
+    "cameras:validate": "tsx scripts/validate-cameras.ts",
+    "demo:reset": "tsx scripts/demo-reset.ts",
+    "replay:capture": "tsx scripts/replay-capture.ts",
+    "detect:sample": "tsx scripts/detect-sample.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "agent:dry": "tsx scripts/agent-dry.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "17.2.3",
+    "leaflet": "1.9.4",
+    "next": "15.5.4",
+    "onnxruntime-node": "1.22.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-leaflet": "5.0.0",
+    "sharp": "0.34.4",
+    "spectrum-ts": "12.10.1",
+    "zod": "4.1.11"
+  },
+  "devDependencies": {
+    "@types/leaflet": "1.9.20",
+    "@types/node": "24.6.2",
+    "@types/react": "19.1.16",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  },
+  "private": true
+}

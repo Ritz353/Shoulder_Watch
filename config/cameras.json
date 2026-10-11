@@ -1,0 +1,54 @@
+{
+  "_readme": [
+    "Hand-curated Atlanta interstate cameras. id = the number in https://511ga.org/map/Cctv/{id}.",
+    "name/road/direction come from the caption burned into each image (e.g. 'GDOT-0040: I-85 S past US23/ClairmontRd MM 90').",
+    "lat/lng are APPROXIMATE (hand-placed from the interchange named in the caption) until the 511GA key arrives;",
+    "then `npm run cameras:validate -- --fix-coords` replaces them with the official coordinates from the documented cameras API.",
+    "ignoreZones: optional normalized [x, y, w, h] rectangles where parked vehicles are expected (lots, frontage roads).",
+    "ADD MORE CAMERAS at the end of the list - see README 'Adding cameras'.",
+    "coordsSource: 'approximate' (hand-placed) or '511ga' (set by cameras:validate --fix-coords). The map shows a note while approximate."
+  ],
+  "coordsSource": "approximate",
+  "cameras": [
+    { "id": 1680, "gdot": "GDOT-0024", "name": "I-75 S at Northside Dr", "road": "I-75", "direction": "S", "lat": 33.8126, "lng": -84.4065, "area": "Buckhead" },
+    { "id": 1681, "gdot": "GDOT-0025", "name": "I-75 S past Howell Mill Rd", "road": "I-75", "direction": "S", "lat": 33.8160, "lng": -84.4130, "area": "Buckhead" },
+    { "id": 1683, "gdot": "GDOT-0027", "name": "I-75 N past Moores Mill Rd", "road": "I-75", "direction": "N", "lat": 33.8300, "lng": -84.4290, "area": "Buckhead" },
+    { "id": 1685, "gdot": "GDOT-0029", "name": "I-75 N past W Paces Ferry Rd", "road": "I-75", "direction": "N", "lat": 33.8460, "lng": -84.4430, "area": "Buckhead" },
+    { "id": 1723, "gdot": "GDOT-0068", "name": "I-75 N past Mt Paran Rd", "road": "I-75", "direction": "N", "lat": 33.8640, "lng": -84.4560, "area": "Sandy Springs" },
+    { "id": 1687, "gdot": "GDOT-0031", "name": "I-75 N before Cumberland Blvd", "road": "I-75", "direction": "N", "lat": 33.8700, "lng": -84.4590, "area": "Cumberland" },
+    { "id": 1688, "gdot": "GDOT-0032", "name": "I-75 S at Cumberland Blvd", "road": "I-75", "direction": "S", "lat": 33.8740, "lng": -84.4620, "area": "Cumberland" },
+
+    { "id": 1720, "gdot": "GDOT-0065", "name": "Connector S before I-75/I-85 split", "road": "I-75/85", "direction": "S", "lat": 33.8030, "lng": -84.3920, "area": "Midtown" },
+    { "id": 1750, "gdot": "GDOT-0097", "name": "Connector S past I-85 merge", "road": "I-75/85", "direction": "S", "lat": 33.7990, "lng": -84.3900, "area": "Midtown" },
+    { "id": 1743, "gdot": "GDOT-0090", "name": "Connector N before University Ave", "road": "I-75/85", "direction": "N", "lat": 33.7230, "lng": -84.3990, "area": "Downtown" },
+    { "id": 1751, "gdot": "GDOT-0098", "name": "Connector S past University Ave", "road": "I-75/85", "direction": "S", "lat": 33.7180, "lng": -84.4040, "area": "Downtown" },
+
+    { "id": 1733, "gdot": "GDOT-0079", "name": "I-75 S at Cleveland Ave", "road": "I-75", "direction": "S", "lat": 33.6845, "lng": -84.4095, "area": "South Atlanta" },
+    { "id": 1735, "gdot": "GDOT-0081", "name": "I-75 S at Central Ave", "road": "I-75", "direction": "S", "lat": 33.6600, "lng": -84.4040, "area": "South Atlanta" },
+    { "id": 1736, "gdot": "GDOT-0082", "name": "I-75 N at CW Grant Pkwy", "road": "I-75", "direction": "N", "lat": 33.6440, "lng": -84.4000, "area": "Airport" },
+    { "id": 1721, "gdot": "GDOT-0066", "name": "I-75 S past Forest Pkwy", "road": "I-75", "direction": "S", "lat": 33.6220, "lng": -84.3880, "area": "Airport" },
+
+    { "id": 1690, "gdot": "GDOT-0035", "name": "I-85 S before I-75 (Brookwood)", "road": "I-85", "direction": "S", "lat": 33.8060, "lng": -84.3880, "area": "Midtown" },
+    { "id": 1692, "gdot": "GDOT-0037", "name": "I-85 S before GA-400", "road": "I-85", "direction": "S", "lat": 33.8160, "lng": -84.3640, "area": "Buckhead" },
+    { "id": 1694, "gdot": "GDOT-0039", "name": "I-85 S after N Druid Hills Rd", "road": "I-85", "direction": "S", "lat": 33.8240, "lng": -84.3480, "area": "Decatur" },
+    { "id": 1695, "gdot": "GDOT-0040", "name": "I-85 S at Clairmont Rd", "road": "I-85", "direction": "S", "lat": 33.8370, "lng": -84.3300, "area": "Decatur" },
+    { "id": 1698, "gdot": "GDOT-0043", "name": "I-85 S past Shallowford Rd", "road": "I-85", "direction": "S", "lat": 33.8600, "lng": -84.3060, "area": "Decatur" },
+    { "id": 1738, "gdot": "GDOT-0084", "name": "I-85 S before Northcrest Rd", "road": "I-85", "direction": "S", "lat": 33.8960, "lng": -84.2650, "area": "Spaghetti Junction" },
+    { "id": 1771, "gdot": "GDOT-0119", "name": "I-85 S at I-285 (Spaghetti Jct)", "road": "I-85", "direction": "S", "lat": 33.8915, "lng": -84.2580, "area": "Spaghetti Junction" },
+
+    { "id": 1725, "gdot": "GDOT-0071", "name": "I-85 S before Cleveland Ave", "road": "I-85", "direction": "S", "lat": 33.6840, "lng": -84.4260, "area": "Airport" },
+    { "id": 1727, "gdot": "GDOT-0073", "name": "I-85 S at Sylvan Rd", "road": "I-85", "direction": "S", "lat": 33.6730, "lng": -84.4380, "area": "Airport" },
+    { "id": 1729, "gdot": "GDOT-0075", "name": "I-85 S at Bobby Brown Pkwy", "road": "I-85", "direction": "S", "lat": 33.6650, "lng": -84.4440, "area": "Airport", "ignoreZones": [[0.62, 0.15, 0.38, 0.22]], "_ignoreZonesNote": "parking lot beyond the far carriageway; flagged parked cars on 2026-10-10" },
+    { "id": 1732, "gdot": "GDOT-0078", "name": "I-85 N at Camp Creek Pkwy", "road": "I-85", "direction": "N", "lat": 33.6490, "lng": -84.4600, "area": "Airport" },
+
+    { "id": 1737, "gdot": "GDOT-0083", "name": "I-285 CCW at I-75 (south)", "road": "I-285", "direction": "CCW", "lat": 33.6270, "lng": -84.3920, "area": "Airport" },
+    { "id": 2350, "gdot": "GDOT-0653", "name": "I-285 CW at 5th Runway Tunnel", "road": "I-285", "direction": "CW", "lat": 33.6270, "lng": -84.4090, "area": "Airport" },
+    { "id": 12915, "gdot": "GDOT-0240", "name": "I-285 CCW past LaVista Rd (SR 236)", "road": "I-285", "direction": "CCW", "lat": 33.8470, "lng": -84.2700, "area": "Decatur" },
+    { "id": 5849, "gdot": "GDOT-0250", "name": "I-285 CCW at N Decatur Rd", "road": "I-285", "direction": "CCW", "lat": 33.8010, "lng": -84.2500, "area": "Decatur" },
+    { "id": 1899, "gdot": "GDOT-0255", "name": "I-285 CCW at US-278", "road": "I-285", "direction": "CCW", "lat": 33.7700, "lng": -84.2470, "area": "Decatur" },
+
+    { "id": 1768, "gdot": "GDOT-0116", "name": "I-20 E at Capitol Ave", "road": "I-20", "direction": "E", "lat": 33.7400, "lng": -84.3850, "area": "Downtown" },
+    { "id": 14029, "gdot": "GDOT-0362", "name": "I-20 W before Glenwood Rd (SR 260)", "road": "I-20", "direction": "W", "lat": 33.7380, "lng": -84.3100, "area": "East Atlanta" },
+    { "id": 6956, "gdot": "GDOT-0372", "name": "I-20 W at Columbia Dr", "road": "I-20", "direction": "W", "lat": 33.7120, "lng": -84.2550, "area": "East Atlanta" }
+  ]
+}

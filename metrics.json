@@ -1,0 +1,20 @@
+{
+  "model": "124M",
+  "seed": 42,
+  "epochs": 1,
+  "batch_size": 1,
+  "learning_rate": 5e-05,
+  "device": "cuda",
+  "torch_version": "2.11.0+cu128",
+  "data_sha256": "b16a3c371205cc1d6ec9e7c7d39daa5f72da6b8f8aeeab53e58ee2e79eb0d4b9",
+  "train_records": 1800,
+  "validation_records": 200,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.1355124688479634,
+      "val_loss": 2.095970323383808
+    }
+  ]
+}
+  

@@ -1,0 +1,68 @@
+{
+  "id": "2026-10-11-1737-590936",
+  "cameraId": 1737,
+  "cameraName": "I-285 CCW at I-75 (south)",
+  "road": "I-285",
+  "direction": "CCW",
+  "source": "replay",
+  "kind": "stall",
+  "firstSeenAt": 1791687962366,
+  "flaggedAt": 1791689123449,
+  "lastSeenAt": 1791689123449,
+  "stationaryMinutes": 19,
+  "box": {
+    "x": 248.5,
+    "y": 96.3,
+    "w": 17.8,
+    "h": 15.1,
+    "cls": "car",
+    "score": 0.59
+  },
+  "night": false,
+  "arrival": "unverified",
+  "status": "cleared",
+  "snapshots": [
+    {
+      "file": "replay/2026-10-11-1737-590936/1791687962366.png",
+      "ts": 1791687962366,
+      "box": {
+        "x": 248.2,
+        "y": 97.5,
+        "w": 17,
+        "h": 14.7,
+        "cls": "car",
+        "score": 0.42
+      }
+    },
+    {
+      "file": "replay/2026-10-11-1737-590936/1791688519007.png",
+      "ts": 1791688519007,
+      "box": {
+        "x": 247.8,
+        "y": 96,
+        "w": 17.1,
+        "h": 15.5,
+        "cls": "car",
+        "score": 0.32
+      }
+    },
+    {
+      "file": "replay/2026-10-11-1737-590936/1791689123449.png",
+      "ts": 1791689123449,
+      "box": {
+        "x": 248.5,
+        "y": 96.3,
+        "w": 17.8,
+        "h": 15.1,
+        "cls": "car",
+        "score": 0.59
+      }
+    }
+  ],
+  "ai": {
+    "status": "unconfirmed",
+    "label": "unconfirmed (AI unavailable)",
+    "detail": "GEMINI_API_KEY / GEMINI_MODEL not set",
+    "checkedAt": 1791689123633
+  }
+}

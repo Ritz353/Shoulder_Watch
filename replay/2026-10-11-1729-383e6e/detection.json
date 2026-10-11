@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-11-1729-383e6e",
+  "cameraId": 1729,
+  "cameraName": "I-85 S at Bobby Brown Pkwy",
+  "road": "I-85",
+  "direction": "S",
+  "source": "replay",
+  "kind": "stall",
+  "firstSeenAt": 1791686365808,
+  "flaggedAt": 1791687346524,
+  "lastSeenAt": 1791687346524,
+  "stationaryMinutes": 16,
+  "box": {
+    "x": 406.9,
+    "y": 78.2,
+    "w": 14.5,
+    "h": 8.3,
+    "cls": "car",
+    "score": 0.47
+  },
+  "night": false,
+  "status": "cleared",
+  "snapshots": [
+    {
+      "file": "replay/2026-10-11-1729-383e6e/1791686365808.png",
+      "ts": 1791686365808,
+      "box": {
+        "x": 406.6,
+        "y": 78.5,
+        "w": 13.9,
+        "h": 7.3,
+        "cls": "car",
+        "score": 0.43
+      }
+    },
+    {
+      "file": "replay/2026-10-11-1729-383e6e/1791686692444.png",
+      "ts": 1791686692444,
+      "box": {
+        "x": 406.9,
+        "y": 78.2,
+        "w": 14.2,
+        "h": 8.1,
+        "cls": "car",
+        "score": 0.48
+      }
+    },
+    {
+      "file": "replay/2026-10-11-1729-383e6e/1791687346524.png",
+      "ts": 1791687346524,
+      "box": {
+        "x": 406.9,
+        "y": 78.2,
+        "w": 14.5,
+        "h": 8.3,
+        "cls": "car",
+        "score": 0.47
+      }
+    }
+  ],
+  "ai": {
+    "status": "unconfirmed",
+    "label": "unconfirmed (AI unavailable)",
+    "detail": "GEMINI_API_KEY / GEMINI_MODEL not set",
+    "checkedAt": 1791687346688
+  }
+}

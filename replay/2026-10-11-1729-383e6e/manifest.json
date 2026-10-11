@@ -1,0 +1,19 @@
+{
+  "cameraId": 1729,
+  "note": "Real recording, Oct 10 2026 10:39-10:55pm ET, I-85 S at Bobby Brown Pkwy: car parked in a lot beside the interstate. Known false positive, now suppressed by an ignoreZone (expect no new flag)",
+  "capturedFrom": "2026-10-11-1729-383e6e",
+  "frames": [
+    {
+      "file": "1791686365808.png",
+      "ts": 1791686365808
+    },
+    {
+      "file": "1791686692444.png",
+      "ts": 1791686692444
+    },
+    {
+      "file": "1791687346524.png",
+      "ts": 1791687346524
+    }
+  ]
+}

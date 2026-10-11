@@ -1,0 +1,11 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.env
+.env.local
+# Runtime data written by the worker (rolling frames, detections, subscribers).
+data/
+.next-build/
+agent-dry-out/
+data-*/
